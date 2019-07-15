@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+li, p {
+    line-height: 23px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+    line-height: 45px;
+}
+
+h2 {
+    font-size: 27px;
+    line-height: 40px;
+}
+
+h3 {
+    font-size: 25px;
+    line-height: 35px;
+}
+
+h4 {
+    font-size: 23px;
+    line-height: 40px;
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 22px;
+}
+h6 {
+    font-size: 15px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.card{
+    background-color: white;
+    border-radius: 12px;
+    display: inline-block;
+    margin: 10px 15px;
+    width: 300px;
+    height: 400px;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.cardBlock {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.card h6 {
+    padding-bottom: 20px;
+}
+
+.cardOne {
+    float: left;
+}
+
+.gray-section{
+    background-color: linen;
+    padding: 50px 80px;
+}
+
+.footer {
+    background-color: white;
+    padding: 20px 0;
+}
+
+.footer div {
+    text-align: right;
+    color: dimgray;
+    font-size: 15px;
+}
+
+.grid {
+    display: grid;
+    height: 100vh;
+    width: 1250px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+}
+
+.logo{
+    padding: 10px;
+}
+
+.interest{
+    height: 60%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.main-content {
+    background-color: gray;
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+}
+
+.navLinks {
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    font-size: 20px;
+}
+
+.navLinks li a{
+    line-height: 35px;
+    color: dimgray;
+}
+
+.navLinks li a:hover {
+    color: mediumslateblue;
+}
+
+.pink-section{
+    background-color: mistyrose;
+    padding: 80px 80px;
+}
+
+.sideNav {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+    
+    text-align: center;
+    padding: 25px;
+    position: fixed;
+    width: 420px;
+}
+
+.social-icon{
+    height: 35px;
+    padding: 5px;
+}
+
+.thin {
+    font-weight: 300;
+}
+
+.quote {
+    border-left: dimgray 2px solid;
+    padding-left: 60px;
+    font-style: italic;
+}
+
+.webID {
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.webID div {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#aboutMe {
+    clear: both;
+}
+
+#aboutMe p {
+    padding: 15px 40px 15px 0;
+}
+
+#profilePic{
+    height: 400px;
+    float: right;
+}
+
+#quoteAuthor {
+    text-align: right;
+    padding-top: 20px;
+}
+
+#whoIam{
+    width: 400px;
+}
+
+#whoIam h1 {
+    height: 400px;
+    width: 630.5px;
+    float: left;
+    text-align: center;
+    /*font-weight: 600;*/
+    padding-top: 125px;
+}
