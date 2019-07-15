@@ -94,6 +94,15 @@ p {
     padding: 50px 80px;
 }
 
+.gray-section ul{
+    padding: 20px 0 0 100px;
+}
+
+.gray-section ul li{
+    list-style-type: circle;
+    padding: 4px 0 4px 10px;
+}
+
 .eighth {
     width: 12.5%;
 }
