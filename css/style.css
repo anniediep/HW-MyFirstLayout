@@ -80,9 +80,22 @@ p {
     float: left;
 }
 
+.clear {
+    clear: both;
+}
+
+.collage {
+    display: inline-block;
+    float: left;
+}
+
 .gray-section{
     background-color: linen;
     padding: 50px 80px;
+}
+
+.eighth {
+    width: 12.5%;
 }
 
 .footer {
@@ -102,6 +115,10 @@ p {
     width: 1250px;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
+}
+
+.half {
+    width: 50%;
 }
 
 .logo{
@@ -160,6 +177,10 @@ p {
     font-weight: 300;
 }
 
+.quarter {
+    width: 25%;
+}
+
 .quote {
     border-left: dimgray 2px solid;
     padding-left: 60px;
@@ -169,6 +190,10 @@ p {
 .webID {
     margin: 0 auto;
     font-family: 'Raleway', sans-serif;
+}
+
+.whole {
+    width: 100%;
 }
 
 .webID div {
