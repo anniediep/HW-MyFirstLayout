@@ -218,6 +218,10 @@ p {
     padding: 15px 40px 15px 0;
 }
 
+#activePage {
+    color: mediumslateblue;
+}
+
 #profilePic{
     height: 400px;
     float: right;
